@@ -13,3 +13,5 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::post('/cors-pass-through', 'CrossOriginPassThroughController@store');
+
